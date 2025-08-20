@@ -46,7 +46,7 @@ export default function Home() {
 
             {/* Title */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-              Hello there, I'm Jose.
+              {"Hello there, I'm Jose."}
             </h1>
 
             <p className="text-lg sm:text-xl md:text-2xl mt-3">
