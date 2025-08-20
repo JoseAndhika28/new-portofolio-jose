@@ -21,8 +21,8 @@ function NametagModel() {
 
 export default function Model3D() {
   return (
-    <div style={{ width: "500px", height: "500px" }}>
-      <Canvas camera={{ position: [0, 0, 2], fov: 9 }}>
+    <div style={{ width: "400px", height: "400px" }}>
+      <Canvas camera={{ position: [0, 0, 2], fov: 7 }}>
         {/* Pencahayaan */}
         <ambientLight intensity={2} />
         <directionalLight position={[2, 5, 5]} />

@@ -49,7 +49,7 @@ const Navbar = () => {
 
       {/* Popup menu (mobile) */}
       {isOpen && (
-        <div className="md:hidden bg-gray-900 bg-opacity-95">
+        <div className="md:hidden bg-opacity-95">
           <ul className="flex flex-col items-center py-4 space-y-4 font-semibold">
             <li>
               <Link href="/" className="hover:underline" onClick={() => setIsOpen(false)}>
@@ -62,13 +62,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#services" className="hover:underline" onClick={() => setIsOpen(false)}>
+              <Link href="/portofolio" className="hover:underline" onClick={() => setIsOpen(false)}>
                 Portofolio
               </Link>
             </li>
             <li>
               <Link href="#contact" className="hover:underline" onClick={() => setIsOpen(false)}>
-                Contact
+                Resume
               </Link>
             </li>
           </ul>

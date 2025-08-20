@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center justify-center min-h-screen mt-20 md:mt-10 gap-8">
         {/* Left Content */}
-        <div className="w-full md:w-1/2 lg:pl-12">
+        <div className="w-full md:w-1/2 lg:pl-12 order-2 md:order-1">
           <div className="heroContent text-center md:text-left">
             {/* Social Icons */}
             <div className="connectWithme flex justify-center md:justify-start gap-5 mb-4">
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
 
         {/* Right Model */}
-        <div className="w-full md:w-1/2 p-5 flex justify-center">
+        <div className="w-full md:w-1/2 p-5 flex justify-center order-1 md:order-2">
           <Model3D />
         </div>
       </div>
